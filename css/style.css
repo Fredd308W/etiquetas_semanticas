@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.contenedor {
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/*Cursosr encima de la opción*/
+nav ul li a:hover {
+    background-color: black;
+    color: white;              
+}
+
+nav {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+main {
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+section {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+footer {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
